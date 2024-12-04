@@ -62,7 +62,8 @@
                 "----------------------------------------------------------------------------------------" +
                 "\n");
 
-
+            bool isnameshadow = animalsList.Any(a => a.Name == "Shadow");
+            Console.WriteLine(isnameshadow);
 
         }
     }
